@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen'
+href='main.css'>
     <title>Cadastre-se</title>
 </head>
-    <body>
-        <div class="container"> 
 
-            <div class="form">
-                <div class="title">
-                    <h1>Cadastre-se</h1>
+<body>
+    <div class="container"> <!--Quadrado inteiro-->
+
+        <div class="form-imagem"> <!--Imagem lateral-->
+            <img src="#">
+        </div>
+
+        <div class="form">
+            <form action="#">
+                <div class="form-header"> <!--cabeça do form-->
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+
+                    <div class="login-button">
+                        <button><a href="entrar.html">Ja tenho login</a></button>
+                        <!--Botão que leva para a pagina de login-->
+                    </div>
                 </div>
-                <div class="login-button">
-                    <button><a href="entrar.html">Ja tenho login</a></button> <!--Botão que leva para a pagina de login-->
-                </div>
+                
+
                 <div class="inputs-group">
+
                     <div class="input-box">
                         <label for="firstname">Nome</label>
                         <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
@@ -34,14 +50,18 @@
                     </div>
                     <div class="input-box">
                         <label for="Confirmpassword">Confirme sua senha</label>
-                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite uma senha" required>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword"
+                            placeholder="Confirme a senha" required>
                     </div>
                 </div>
+
                 <div class="continue-button">
                     <button><a href="#">Continuar</a></button><!--Leva para a pagina principal-->
                 </div>
-            </div>
 
+            </form>
         </div>
-    </body>
+
+    </div>
+</body>
 </html>
