@@ -91,7 +91,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    
 }
 
 .input-box{
@@ -128,7 +128,7 @@ body{
 
 .continue-button button{
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 2.0rem;
     border:none;
     background-color:#6c63ff ;
     padding: 0.62rem;
@@ -167,6 +167,7 @@ body{
     .inputs-group{
         flex-direction:column ;
         overflow: scroll;
+        overflow-x: hidden;
         flex-wrap: nowrap;
         max-height:10rem ;
         padding-right: 5rem;
